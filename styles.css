@@ -380,16 +380,9 @@ footer {
 
 @media(max-width: 480px){
 
-    footer {
-        display: block;
-    }
-    
-    header {
-        width: 100%;
-    }
-
     nav {
         display: none;
+        width: 100%;
     }
 
     #logoCabecalho {
@@ -397,7 +390,7 @@ footer {
     }
 
     .logoPrincipalImg {
-        height: 200px;
+        height: 188px;
     }
 
     main {
@@ -405,7 +398,71 @@ footer {
         width: 100%;
     }
 
+    #principal {
+        width: 95%;
+    }
+
     #quemSouText {
         font-size: 22px;
+    }
+
+    .conteudoMotivoExpress {
+        width: 100%;
+    }
+
+    .expressTitle {
+        margin-top: 7px;
+    }
+
+    .text {
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+
+    .maquiagemExpressImg {
+        width: 45%;
+        margin-left: 0px;
+    }
+
+    .conteudoMaquiagemPersonalizada {
+        width: 100%;
+    }
+
+    .maquiagemPersonalizadaImg {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .conteudoPacoteNoiva {
+        width: 100%;
+    }
+
+    .conteudoPacoteNoivaText {
+        width: 60%;
+    }
+
+    .pacoteNoivaImg {
+        width: 100%;
+    }
+
+    #formulario {
+        width: 100%;
+    }
+
+    form {
+        align-items: center;
+        width: 70%
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #navFooter {
+        display: block;
+        width: 70%;
     }
 }
