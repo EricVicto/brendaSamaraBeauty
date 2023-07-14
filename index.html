@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible content="IE-idge">
     <title>BrendaSamaraBeauty</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/7a91df1efa.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -25,7 +26,7 @@
                     <li>Feedback</li>
                 </a>
                 <a href="https://contate.me/brenda-samara-beauty">
-                    <li><img id="phoneCall" src="./midia/phone-call.png" alt="">    12 99130-9610</li>
+                    <li><i class="fa-solid fa-phone"></i> 12 99130-9610</li>
                 </a>
             </ul>
         </nav>
@@ -43,6 +44,8 @@
             </video>
         </div>
     </main>
+
+
 
     <div id="conteudoMaquiaguemExpress">
         <div class="conteudoMotivoExpress">
@@ -78,7 +81,38 @@
                 <img class="pacoteNoivaImg" src="./midia/image1.jpeg" alt="PacoteNoiva">
             </div>
         </div>
-    </div>  
-    
+    </div>
+    <div id="formulario">
+        <form action="mailto:ericvictor201@gmail.com" method="post" enctype="text/plain">
+            <h4 class="titleForm">Quer contratar meu serviço ou meu curso?</h4>
+            <p class="textForm">Peço que preencha esse formulario e eu estarei entrando em contato</p>
+            
+            <label style="margin-left: 20px; font-weight: bold; font-family: 'Caviar Dreams', sans-serif;" for="textName">Nome:</label></br>
+            <input id="textName" type="text" name="textName" placeholder="Digite:" ></br>
+
+            <label style="margin-left: 20px; font-weight: bold; font-weight: bold; font-family: 'Caviar Dreams', sans-serif;" for="number">Número:</label></br>
+            <input type="number" id="number" name="number" placeholder="Digite:"></br>
+
+            <label style="margin-left: 20px; font-weight: bold; font-weight: bold; font-family: 'Caviar Dreams', sans-serif;" for="city">Endereço em que será feito serviço? (Bairro, rua e número):</label></br>
+            <input type="text" id="textCity" name="textCity" placeholder="Digite:"></br>
+
+            <button>Enviar</button>
+            <button type="reset">Limpar</button>
+        </form> 
+    </div>
+
+    <footer>
+        <nav id="navFooter">
+            <ul class="ulFooter">
+                <img class="logoFooter" src="./midia/Logotipo principal - Preto.png" alt="logo">
+                <a href="https://www.instagram.com/brendaoliveirastudio/">
+                    <li><i class="fa-brands fa-instagram fa-2xl" style="color: #000000;"></i></li>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5512988655573&text=Oe!%20Tudo%20bem?%20Peguei%20seu%20n%C3%BAmero%20no%20site...">
+                    <li><i class="fa-brands fa-whatsapp fa-2xl" style="color: #000000;"></i></li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
