@@ -380,6 +380,10 @@ footer {
 
 @media(max-width: 480px){
 
+    footer {
+        display: block;
+    }
+    
     header {
         width: 100%;
     }
